@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+ }
+ .nano{
+    width: 100%;
+    position: relative;
+    padding: 5px 10%;
+    background-color: #a3306bc5;
+    background-image: url('https://img.lovepik.com/photo/50042/0418.jpg_wh300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .nano ul{
+    display: flex;
+    list-style: none;
+    
+ }
+ .nano ul li:first-child{
+    flex: 0;
+    color: #ffffff;
+ }
+ .nano ul a{
+    display: block;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+ }
+ .nano ul a:hover{
+    color: #00ffee;
+ }
+ .nano li{
+   margin-left: 1rem;
+    color: white;
+   font-size: large;
+   text-shadow: 1px 1px 1px black;
+   font-weight: bolder;
+ }
+ .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 4px;
+  }
+  .box{
+    width: 100%;
+    position: relative;
+    padding: 5px 10%;
+    background-color: #a3306bc5;
+ }
+ .box ul{
+    display: flex;
+    list-style: none;
+   margin-left: 15rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+   
+ }
+ .box ul li:first-child{
+    flex: 0;
+    color: #ffffff;
+ }
+ .box ul a{
+    display: block;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+ }
+ .box ul a:hover{
+    color: #00ffee;
+ }
+ table, th, td {
+    border: 1px solid rgb(214, 187, 36);
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  table{
+      align-items: center;
+  }
+  th, td {
+    padding: 15px;
+  }
+  footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+ footer {
+    background-color: #333;
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete_1258-17192.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.contr{
+   margin-bottom: 1rem;
+}
+.img_box img{
+        opacity: 0.5;
+}
+.img_box img:hover{
+   opacity: 1;
+}
